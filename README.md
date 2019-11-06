@@ -1,9 +1,9 @@
 # SendGridFunction
 A Http Triggered Azure Function that will send emails via sendgrid.
 
-#SetUp Instructions
+# SetUp Instructions
 
-##Prequisites: Azure Portal Account (Free)
+## Prequisites: Azure Portal Account (Free)
 
 1. Sign into your Azure Account.
 2. INavigate to the Send Grid Accounts resource
