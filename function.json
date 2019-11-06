@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "input",
+      "type": "httpTrigger",
+      "direction": "in",
+      "route": "sendEmail"
+    },
+    {
+      "type": "sendGrid",
+      "name": "message",
+      "direction": "out",
+      "apiKey": "SendGridKey",
+      "from": "no-reply@live.com",
+      "to": "emailAddress@live.com"
+    }
+  ]
+}
